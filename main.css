@@ -71,6 +71,7 @@ section h2, .articles article {
     text-decoration: none;
     font-weight: bold;
     margin-top: 8px;
+    padding: 8px;
 }
 
 .articles article a:hover{
@@ -90,3 +91,47 @@ section h2 {
     font-size: 32px;
 }
 
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432
+}
+
+#eco {
+    background-color: #fceae2;
+}
+
+#eco .articles article a {
+    background-color: #bead9c;
+}
+
+#ENT {
+    background-color: #fcb986;
+}
+
+#ENT .articles article a {
+    background-color: #a44d0a;
+}
+
+#TI {
+    background-color: rgb(161, 247, 247);
+}
+
+#TI .articles article a{
+    background-color: blue;
+}
+
+footer{
+    background-color: #2f3640;
+}
+
+footer a {
+    color: #f5f6f5;
+    text-decoration: none;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    padding-right: 10px;
+}
